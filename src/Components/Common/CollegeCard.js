@@ -1,4 +1,4 @@
-import { useEffect, useState, memo } from 'react';
+import { useEffect, useState, memo} from 'react';
 import styles from "./CSS/CollegeCard.module.css";
 import college01 from "../../Assets/college_01.jpg";
 
@@ -32,7 +32,7 @@ const CollegeCard =  memo(({
                 if(sIndex){
                     distance = p.substring(0, sIndex);
                     placeName = p.substring(sIndex+1, pL);
-                    console.log('places=',p, sIndex, pL, distance, placeName);
+                    // console.log('places=',p, sIndex, pL, distance, placeName);
                 }
                 arr.push(<><span className={styles.boldText}>{distance}</span><span className={styles.plainText}>{placeName+((i===(l-1))?'':', ')}</span></>)
             })
