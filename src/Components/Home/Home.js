@@ -23,14 +23,14 @@ function Home (){
         parentDivRef.current.addEventListener("scroll", modifiedHandleScroll)
         setCollegeData(collegeList.colleges.slice(0,currSize));
 
-        return ()=>parentDivRef.current.removeEventListener("scroll", modifiedHandleScroll);
+        return ()=>parentDivRef&&parentDivRef.current&&parentDivRef.current.removeEventListener("scroll", modifiedHandleScroll);
     },[])
 
     function handleScroll(e){
         // myscroll.scrollTop + this.refs.myscroll.clientHeight >=
         //     this.refs.myscroll.scrollHeight
         console.log('scrolling===========',e.target.scrollTop,e.target.clientHeight, e.target.scrollHeight,e.target);
-        if(((e.target.scrollTop + e.target.clientHeight+300) >= (e.target.scrollHeight))&&!isLoading){
+        if(((e.target.scrollTop + e.target.clientHeight) >= (e.target.scrollHeight))&&!isLoading){
             setIsLoading(true);
             setTimeout(()=>{
                 let temp = 0;
