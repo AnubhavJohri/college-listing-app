@@ -85,13 +85,18 @@
   }
 
   .promotedBox{
-    top: -23px;
-    left: 475px;
-    position: absolute;
-    padding: 11px 31px 11px 48px;
-    background-color: #68a7ff;
     color:white;
     font-family: DINpro;
+    width: 152px;
+    height: 0;
+    border-bottom: 20px solid #68a7ff;
+    border-top: 20px solid #68a7ff;
+    border-left: 15px solid transparent;
+    font-size: 13.5px;
+    position: absolute;
+    top: -20px;
+    left: 471px;
+    text-align:center;
   }
 
   .discountVectorSymbol{

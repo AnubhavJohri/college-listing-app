@@ -30,7 +30,7 @@ const CollegeCard =  memo(({
                   <span style={{display:'block', fontSize:'18.5px', fontFamily:'DINpro'}}>{`${rating}/5`}</span>
                   <span style={{display:'block', fontSize:'13.5px', fontFamily:'DINpro'}}>{ratingRemarks}</span>
               </div>
-              {promoted&&<div className="promotedBox">{'PROMOTED'}</div>}
+              {promoted&&<div className="promotedBox"><span>{'PROMOTED'}</span></div>}
               <span className="ranking">{`#${ranking}`}</span>
               <div style={{padding:'0 10px'}}>
                 <div style={{display:'inline-block', width:'70%'}}>
@@ -49,8 +49,8 @@ const CollegeCard =  memo(({
                 </div>
                 <div style={{display:'inline-block', width:'30%', textAlign:'right'}}>
                     <div style={{marginBottom:'12px'}}>
-                        <span className="originalFees"><strike>&#8377;{originalFees}</strike></span>
-                        <span className="discountVectorSymbol">&#183; {discount}</span>
+                        <span className="originalFees"><strike>&#8377;{originalFees} </strike></span>
+                        <span className="discountVectorSymbol">&#183; {discount}%</span>
                     </div>
                     <div>
                         <span className="semFees">&#8377;{discountedFees}</span>
