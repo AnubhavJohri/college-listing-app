@@ -1,0 +1,209 @@
+.cardparentcontainer {
+    width: 47.2%;
+    height: 377px;
+    margin: 68px 0px 59px 35px;
+    padding: 0 0 10px;
+    border-radius: 3.8px;
+    box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+    border: solid 0.2px #444444;
+    background-color: var(--white-three);
+    display: inline-block;
+    position: relative;
+    /* grid-column-start: 1;
+    grid-column-end: 2; */
+  }
+
+  .collegeImageContainer {
+    width: 637.3px;
+    height: 233.2px;
+    /* padding: 28.3px 13px 10.8px 14.3px; */
+  }
+
+  .collegeTitle {
+    width: 260px;
+    height: 17px;
+    /* margin: 18px 11px 3px 17px; */
+    /* font-family: DINPro; */
+    font-size: 18.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.97;
+    letter-spacing: normal;
+    text-align: center;
+    color: #444444;
+  }
+
+  .collegeImage{
+    height:100%;
+    width:100%;
+    filter: brightness(50%);
+  }
+
+  .tags{
+    /* margin: 107px 7px 0 0; */
+    padding: 11px 18px 10px 17px;
+    display: inline-block;
+    border-radius: 16.5px;
+    background-color: #ffffff;
+
+    /* font-family: DINPro; */
+    font-size: 13.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #444444;
+    margin-left: 8px;
+  }
+
+  .ratingSquare{
+    width: 75px;
+    height: 53px;
+    margin-top: 32px;
+    padding: 9px;
+    border-radius: 3.8px;
+    background-color: #f5a626;
+    color:#ffffff;
+    text-align:center;
+    position: absolute;
+    left: 535px;
+    top:0;
+  }
+
+  .discountBox{
+    width: 347px;
+    height: 35px;
+    /* margin: 3px 85px 0 1px; */
+    margin-left:-10px;
+    margin-top:10px;
+    /* position: absolute; */
+    left: 0px;
+    /* margin-top: 8px; */
+    padding: 11px 21px 11px 17px;
+    background-color: #ccf5e7;
+    border-radius: 0 27px 27px 0;
+  }
+
+  .promotedBox{
+    /* margin: 53px 62px 418px 301px; */
+    top: -23px;
+    left: 475px;
+    position: absolute;
+    padding: 11px 31px 11px 48px;
+    background-color: #68a7ff;
+    color:white;
+  }
+
+  .discountVectorSymbol{
+    width: 29px;
+    height: 14px;
+    /* margin: 12px 27px 12px 4px; */
+    padding: 3px 6px 2px;
+    background-color: #dd1c26;
+    color:white;
+  }
+
+  /* Headings */
+  .ranking{
+    /* font-family: DINPro; */
+    font-size: 13.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top:196px;
+    left:410px;
+  }
+
+  .nearestPlaces{
+    /* margin: 11px 6px 8px 17px; */
+    /* font-family: DINPro; */
+    font-size: 13.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #444444;
+  }
+
+  .nearestPlacesDistance{
+    /* margin: 11px 49px 8px 6px; */
+    /* font-family: DINPro; */
+    font-size: 13.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #adadad;
+  }
+
+  .boldText{
+    color:black;
+    font-weight: bold;
+    font-size: 13.5px;
+  }
+
+  .plainText{
+    color: #adadad;
+    font-size: 13.5px;
+  }
+
+  .plainTextBlue{
+    /* font-family: DINPro; */
+    font-size: 13.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #37b396;
+  }
+
+  .semFees{
+    /* margin: 3px 27px 3px 143px; */
+    /* font-family: DINPro; */
+    font-size: 28.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.89;
+    letter-spacing: normal;
+    color: #dd1c26;
+    display: block;
+  }
+
+  .semCycle{
+    /* font-family: Myriad Pro; */
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    text-align: center;
+    color: #444444;
+  }
+
+  .originalFees{
+    /* font-family: Myriad Pro; */
+    font-size: 11px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    text-align: center;
+    color: #444444;
+  }
