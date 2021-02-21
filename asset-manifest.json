@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/college-listing-app/static/css/main.bb0587fa.chunk.css",
-    "main.js": "/college-listing-app/static/js/main.6e923d13.chunk.js",
-    "main.js.map": "/college-listing-app/static/js/main.6e923d13.chunk.js.map",
-    "runtime-main.js": "/college-listing-app/static/js/runtime-main.c7b35dd3.js",
-    "runtime-main.js.map": "/college-listing-app/static/js/runtime-main.c7b35dd3.js.map",
-    "static/js/2.cb4f0c98.chunk.js": "/college-listing-app/static/js/2.cb4f0c98.chunk.js",
-    "static/js/2.cb4f0c98.chunk.js.map": "/college-listing-app/static/js/2.cb4f0c98.chunk.js.map",
-    "static/js/3.d561fe6d.chunk.js": "/college-listing-app/static/js/3.d561fe6d.chunk.js",
-    "static/js/3.d561fe6d.chunk.js.map": "/college-listing-app/static/js/3.d561fe6d.chunk.js.map",
+    "main.css": "/college-listing-app/static/css/main.d116b3e6.chunk.css",
+    "main.js": "/college-listing-app/static/js/main.43c61163.chunk.js",
+    "main.js.map": "/college-listing-app/static/js/main.43c61163.chunk.js.map",
+    "runtime-main.js": "/college-listing-app/static/js/runtime-main.ddf8311e.js",
+    "runtime-main.js.map": "/college-listing-app/static/js/runtime-main.ddf8311e.js.map",
+    "static/js/2.0a83f730.chunk.js": "/college-listing-app/static/js/2.0a83f730.chunk.js",
+    "static/js/2.0a83f730.chunk.js.map": "/college-listing-app/static/js/2.0a83f730.chunk.js.map",
+    "static/js/3.1b910e9b.chunk.js": "/college-listing-app/static/js/3.1b910e9b.chunk.js",
+    "static/js/3.1b910e9b.chunk.js.map": "/college-listing-app/static/js/3.1b910e9b.chunk.js.map",
     "index.html": "/college-listing-app/index.html",
-    "static/css/main.bb0587fa.chunk.css.map": "/college-listing-app/static/css/main.bb0587fa.chunk.css.map",
-    "static/js/2.cb4f0c98.chunk.js.LICENSE.txt": "/college-listing-app/static/js/2.cb4f0c98.chunk.js.LICENSE.txt",
+    "static/css/main.d116b3e6.chunk.css.map": "/college-listing-app/static/css/main.d116b3e6.chunk.css.map",
+    "static/js/2.0a83f730.chunk.js.LICENSE.txt": "/college-listing-app/static/js/2.0a83f730.chunk.js.LICENSE.txt",
     "static/media/index.css": "/college-listing-app/static/media/DINPro.6ef85ba7.otf",
     "static/media/college_01.bbb13c0d.jpg": "/college-listing-app/static/media/college_01.bbb13c0d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c7b35dd3.js",
-    "static/js/2.cb4f0c98.chunk.js",
-    "static/css/main.bb0587fa.chunk.css",
-    "static/js/main.6e923d13.chunk.js"
+    "static/js/runtime-main.ddf8311e.js",
+    "static/js/2.0a83f730.chunk.js",
+    "static/css/main.d116b3e6.chunk.css",
+    "static/js/main.43c61163.chunk.js"
   ]
 }
