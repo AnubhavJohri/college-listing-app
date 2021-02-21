@@ -2,7 +2,7 @@
     width: 47.2%;
     height: 377px;
     min-width: 637px;
-    margin: 68px 0px 23px 35px;
+    margin: 68px 16px 23px 18px;
     padding: 0 0 10px;
     border-radius: 3.8px;
     box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
@@ -107,6 +107,7 @@
     padding: 3px 6px 2px;
     background-color: #dd1c26;
     color:white;
+    font-size:11px;
   }
 
   /* Headings */
