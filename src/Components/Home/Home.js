@@ -9,6 +9,8 @@ function Home (){
     const [ isEnd , setIsEnd ] = useState(false);
     const parentDivRef = useRef(null);
 
+    /*DEBOUNCED FUNCTION:- CREATED DEBOUNCED FUNCTION TO FIRE SCROLL EVENT ONLY AFTER A CERTAIN
+    TIME TO REDUCE THE NUMBER OF TIMES IT'S FIRED*/
     const debouncedHandleScroll = useCallback((fn, d) =>{
         let timer;
         return function(e){
@@ -23,9 +25,13 @@ function Home (){
         parentDivRef.current.addEventListener("scroll", modifiedHandleScroll)
         setCollegeData(collegeList.colleges.slice(0,currSize));
 
+        /*REMOVE EVENT LITSENER WHEN COMPONENT UNMOUNTS*/
         return ()=>parentDivRef&&parentDivRef.current&&parentDivRef.current.removeEventListener("scroll", modifiedHandleScroll);
     },[])
 
+    /** HANDLES SCROLL AND CHECKS IF WE HAVE TO LOAD MORE DATA BASED ON THE FACT
+     * WHETHER WE HAVE REACHED ALMOST AT THE END OF THE SCROLL
+     */
     function handleScroll(e){
         if(((e.target.scrollTop + e.target.clientHeight) >= (e.target.scrollHeight))&&!isLoading){
             setIsLoading(true);

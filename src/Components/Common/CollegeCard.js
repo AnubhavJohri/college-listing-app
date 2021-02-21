@@ -3,6 +3,7 @@ import "./CSS/CollegeCard.css";
 import college01 from "../../Assets/college_01.jpg";
 import { getStringJSX } from "./Utils/Utils";
 
+/*CARD COMPONENT */
 const CollegeCard =  memo(({
     collegeName,
     promoted,
@@ -32,7 +33,7 @@ const CollegeCard =  memo(({
               </div>
               {promoted&&<div className="promotedBox"><span>{'PROMOTED'}</span></div>}
               <span className="ranking">{`#${ranking}`}</span>
-              <div style={{padding:'0 10px'}}>
+              <div style={{padding:'0 20px'}}>
                 <div style={{display:'inline-block', width:'70%'}}>
                     <span className="collegeTitle">{collegeName}</span>
                     <div style={{margin: '11px 0 8px 0px'}}>
