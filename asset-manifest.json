@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/college-listing-app/static/css/main.3f189284.chunk.css",
-    "main.js": "/college-listing-app/static/js/main.860149c5.chunk.js",
-    "main.js.map": "/college-listing-app/static/js/main.860149c5.chunk.js.map",
+    "main.css": "/college-listing-app/static/css/main.14eff53d.chunk.css",
+    "main.js": "/college-listing-app/static/js/main.3b09d9ce.chunk.js",
+    "main.js.map": "/college-listing-app/static/js/main.3b09d9ce.chunk.js.map",
     "runtime-main.js": "/college-listing-app/static/js/runtime-main.c7b35dd3.js",
     "runtime-main.js.map": "/college-listing-app/static/js/runtime-main.c7b35dd3.js.map",
     "static/js/2.003b6670.chunk.js": "/college-listing-app/static/js/2.003b6670.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.d561fe6d.chunk.js": "/college-listing-app/static/js/3.d561fe6d.chunk.js",
     "static/js/3.d561fe6d.chunk.js.map": "/college-listing-app/static/js/3.d561fe6d.chunk.js.map",
     "index.html": "/college-listing-app/index.html",
-    "static/css/main.3f189284.chunk.css.map": "/college-listing-app/static/css/main.3f189284.chunk.css.map",
+    "static/css/main.14eff53d.chunk.css.map": "/college-listing-app/static/css/main.14eff53d.chunk.css.map",
     "static/js/2.003b6670.chunk.js.LICENSE.txt": "/college-listing-app/static/js/2.003b6670.chunk.js.LICENSE.txt",
     "static/media/index.css": "/college-listing-app/static/media/DINPro.6ef85ba7.otf",
     "static/media/college_01.bbb13c0d.jpg": "/college-listing-app/static/media/college_01.bbb13c0d.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.c7b35dd3.js",
     "static/js/2.003b6670.chunk.js",
-    "static/css/main.3f189284.chunk.css",
-    "static/js/main.860149c5.chunk.js"
+    "static/css/main.14eff53d.chunk.css",
+    "static/js/main.3b09d9ce.chunk.js"
   ]
 }
