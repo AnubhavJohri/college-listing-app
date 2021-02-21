@@ -3,6 +3,27 @@ import "./CSS/CollegeCard.css";
 import college01 from "../../Assets/college_01.jpg";
 import { getStringJSX } from "./Utils/Utils";
 
+function StarRating({rate}){
+    const [ displayRating, setDisplayRating] = useState([]);
+
+    useEffect(()=>{
+        const intRate = parseInt(rate);
+        let finalRating = 0;
+        if((rate-intRate)>0.5){ finalRating = intRate+1 ;}
+        else {finalRating = intRate;}
+        let arr = []; 
+        for( let i = 1 ; i <= 5 ; i++){
+            let customColor = 'black';
+            if(i>finalRating){ customColor = 'gray'; }
+            arr.push(<span key={i} style={{color:customColor}}>&#9733;</span>);
+        }
+        setDisplayRating(arr);
+
+    },[])
+
+    return <>{(displayRating&&displayRating.length>0)?displayRating:<span>Ratings Not Available</span>}</>;
+}
+
 /*CARD COMPONENT */
 const CollegeCard =  memo(({
     collegeName,
@@ -36,6 +57,7 @@ const CollegeCard =  memo(({
               <div style={{padding:'0 20px'}}>
                 <div style={{display:'inline-block', width:'70%'}}>
                     <span className="collegeTitle">{collegeName}</span>
+                    <StarRating rate={rating}/>
                     <div style={{margin: '11px 0 8px 0px'}}>
                         <span className="nearestPlaces">{`${nearestPlace[0]} |`}</span>
                         <span className="nearestPlacesDistance">{nearestPlace[1]}</span>
