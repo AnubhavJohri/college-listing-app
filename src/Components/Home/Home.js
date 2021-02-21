@@ -23,7 +23,13 @@ function Home (){
 
     useEffect(()=>{
         document.body.style.overflow = 'hidden';
-        modifiedGetMoreData = debouncedHandleScroll(getMoreData, 2000);
+
+        /**-------------------------------NOTE--------------------------------- 
+         * ALL SETTIMEOUT DELAYS WHILE LOADING ARE JUST GIVEN TO MAKE INFINITE SCROLL LOOK LIKE
+         * DATA IS BEING CALLED FROM API AND TO MAKE LOOK INFINITE SCROLL LOOK MORE
+         * HIGHLIGHTED AND PROMINENT.
+         */
+        modifiedGetMoreData = debouncedHandleScroll(getMoreData, 1000);
         const modifiedHandleScroll = debouncedHandleScroll(handleScroll, 600);
         parentDivRef.current.addEventListener("scroll", modifiedHandleScroll)
         setCollegeData(collegeList.colleges.slice(0,currSize));
