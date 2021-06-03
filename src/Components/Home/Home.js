@@ -68,7 +68,7 @@ function Home (){
     return (
         <div 
          ref={parentDivRef} 
-         style={{ height: '656px', overflowY:'scroll'}}>
+         style={{ height: '656px', overflowY:'scroll', marginTop: '21px'}}>
              <span className="ParentDivTitle"><b>Colleges in North India</b></span>
             {collegeData.map(college=>
             <CollegeCard 
